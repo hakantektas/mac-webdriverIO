@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "types": [
+            "node",
+            "webdriverio/async"
+        ]
+    },
+    "include": [
+        "**/*.js",
+        "**/*.json",
+        "node_modules/expect-webdriverio"
+      ]
+    
+}
