@@ -32,7 +32,13 @@ Install required packages
 
 ```bash
   npm install
+  
+  npm install @wdio/appium-service --save-dev
+  
+  npm install @wdio/cli
 ```
+
+npm install @wdio/appium-service --save-dev
 
 Run the server
 
