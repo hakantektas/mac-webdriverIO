@@ -69,10 +69,10 @@ exports.config = {
         appActivity : 'com.marsathletic.android.macfit.app.ui.splash.SplashActivity',
         language : 'tr',
         locale: 'tr',
-        fullReset : false,
-        noReset : true,
+        fullReset : true,
+        noReset : false,
         deviceName : 'Samsung Galaxy Note8',
-        app : '/Users/mobven/Downloads/macfit.apk',
+        app : '/Users/hakantektas/Downloads/macfit.apk',
         udid:'988d9145524846413130'
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
