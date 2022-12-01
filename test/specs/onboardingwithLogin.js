@@ -11,7 +11,7 @@ describe('Login', () => {
 
         console.log("Onboarding ... " + ":" +deger)
 
-        expect(deger).to.equal("Hayatının her anında spora, fit olmaya ve iyi yaşamaya inanıyorsan doğru yerdesin")
+        expect(deger).to.equal("You are at the right place to be fitter and to live better")
 
       
         await expect(deger).to.have.contains("fit olmaya ve iyi yaşamaya")
