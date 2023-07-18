@@ -63,17 +63,18 @@ exports.config = {
         //
         //browserName: 'chrome',
        // acceptInsecureCerts: true,
-        platformName : 'Android',
-        automationnaME : 'UiAutomator2',
-        appPackage : 'com.marsathletic.android.macfit.app.dev',
-        appActivity : 'com.marsathletic.android.macfit.app.ui.splash.SplashActivity',
-        language : 'tr',
-        locale: 'tr',
-        fullReset : true,
-        noReset : false,
-        deviceName : 'Samsung Galaxy Note8',
-        app : '/Users/hakantektas/Downloads/macfit.apk',
-        udid:'988d9145524846413130'
+        "appium:platformName": 'Android',
+        "appium:automationName":"UiAutomator2",
+        "appium:udid":"988d9145524846413130",
+        "appium:deviceName":"Samsung Note8",
+        "appium:platformName":"Android",
+        "appium:appPackage" : 'com.marsathletic.android.macfit.app.dev',
+        "appium:appActivity" : 'com.marsathletic.android.macfit.app.ui.splash.SplashActivity',
+        "appium:language" : 'tr',
+        "appium:locale": 'tr',
+        "appium:fullReset" : true,
+        "appium:app":"/Users/hakantektas/Downloads/4.0.0 (4432).apk",
+        "appium:noReset" : false,
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
